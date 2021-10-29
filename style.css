@@ -121,7 +121,7 @@ body{
    .site-logo img{
        width:12%;
        height: auto;
-       position: absolute;
+       position: fixed;
        margin-top:10px;
        margin-left: 10px;
    }
