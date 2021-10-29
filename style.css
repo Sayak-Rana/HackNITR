@@ -73,3 +73,9 @@ body{
     cursor: pointer;
     transition: transform .2s ease-out;
   }  
+
+  .submitbtn{
+      width: 10%;
+      margin-left: 45%;
+      margin-top: 10px;
+  }
