@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>QR Scanner cum Generator</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/qrcode.js"></script>
+<link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-
-<form onsubmit="generate();return false;">
-	<input type="text" id="qr" name="">
+<div>
+<div class="heading">
+	<h1>Enter Your text to generate QR:</h1>
+</div>
+<form id="form1" onsubmit="generate();return false;">
+	<input id="textbox" type="text" id="qr" name="">
 </form>
 
 <div id="qrResult" style="height: 100px;width: 100px">
@@ -48,6 +52,8 @@ function generate(){
 
 <!--To Read QR Code-->
 <script type="text/javascript" src="js/qrReader.js"></script>
+
+</div>
 
 </body>
 </html>
