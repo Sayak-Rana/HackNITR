@@ -14,7 +14,10 @@
 <form id="form1" onsubmit="generate();return false;">
 	<input type="text" id="qr" name="">
 	<br>
-	<input type="submit" class="submitbtn"> 
+	<div class="button">
+		<button id="submit_btn">Submit</button>
+		<!-- <input type="submit" class="submitbtn"> -->
+	</div>
 </form>
 <div class="output">
 <div id="qrResult">
@@ -47,10 +50,7 @@ function generate(){
 <input type="file" id="file" name="file" class="file">
 <label for="file">Select file</label>
 
-<h1>Qr Content:<br> <span id="content"></span></h1>
-
-
-
+<h1>QR Content:<br> <span id="content"></span></h1>
 <!--To Read QR Code-->
 <script type="text/javascript" src="js/qrReader.js"></script>
 
