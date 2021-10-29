@@ -8,6 +8,7 @@ body{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
+    margin-top: 10px;
 }
 
 /* #form1{
@@ -115,4 +116,12 @@ body{
   form .button button:hover{
    /* transform: scale(0.99); */
    background: linear-gradient(40deg, #ffffff,#52f552);
+   }
+
+   .site-logo img{
+       width:12%;
+       height: auto;
+       position: absolute;
+       margin-top:10px;
+       margin-left: 10px;
    }
